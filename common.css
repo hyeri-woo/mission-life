@@ -1,0 +1,44 @@
+/* reset */
+html, body,
+h1, h2, h3, h4, h5,
+p, span, strong,
+ul, li, button, a, 
+form, input, label {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    list-style: none;
+}
+
+button, input {
+    color: inherit;
+    border: none;
+    background: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* a11y-hidden */
+.a11y-hidden {
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+}
+
+html {
+    font-size: 10px;
+}
+
+.notuser {
+    display: none;
+}
